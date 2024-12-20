@@ -15,7 +15,7 @@ public class KBC {
         questions.add(new Question("What is the solution of this 2+2*2-2?",new String[] {"4","9","3","6"},0));
         questions.add(new Question("What is the chemical symbol for gold?",new String[] {"Ag","Au","Al","Ar"},1));
         questions.add(new Question("When was IPL is introduced?",new String[] {"2005","2003","2008","2010"},2));
-
+        questions.add(new Question("When india won the world cup in t20 series recently?",new String[]{"2022","2019","2024","2023"},2));
         Quiz quiz = new Quiz(questions);
         quiz.start();
     }
